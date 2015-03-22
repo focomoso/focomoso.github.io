@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+.page {
+  width: 90%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 6px 6px 25px #999999;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.page:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+  }
+
+.title {
+  text-align: center;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.script-text {
+  width: 95%;
+}
+
+.note-div-white {
+  vertical-align: bottom;
+  bottom: 50px;
+  position: absolute;
+  left: 67%;
+  color: white;
+}
+
+.note-text {
+  width: 350px;
+  font-size: 0.75em;
+}
+
+.note-div {
+  vertical-align: bottom;
+  bottom: 50px;
+  position: absolute;
+  left: 60%;
+}
+
+.float-left {
+  float: left;
+}
+
