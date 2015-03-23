@@ -28,6 +28,14 @@ a {
      height: 0;
   }
 
+.page-num {
+  float: right;
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
 .title {
   text-align: center;
 }
@@ -46,6 +54,26 @@ a {
   width: 95%;
 }
 
+.note-div {
+  vertical-align: bottom;
+  bottom: 50px;
+  position: absolute;
+  left: 60%;
+}
+
+
+.note-div-right {
+  vertical-align: bottom;
+  position: absolute;
+  left: 60%;
+  bottom: 50px;
+  right: 20px;
+}
+
+.note-div-left {
+  position: absolute;
+  bottom: 50px;
+}
 .note-div-white {
   vertical-align: bottom;
   bottom: 50px;
@@ -55,17 +83,18 @@ a {
 }
 
 .note-text {
-  width: 350px;
+  width: 450px;
   font-size: 0.75em;
 }
 
-.note-div {
-  vertical-align: bottom;
-  bottom: 50px;
-  position: absolute;
-  left: 60%;
-}
-
+.note-div:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+  }
 .float-left {
   float: left;
 }
