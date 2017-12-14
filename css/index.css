@@ -1,0 +1,131 @@
+body {
+	color: #404060;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size: 1.0em;
+	background: white url(../img/graynoise2.png) repeat;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 0em;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 0pt;
+}
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 20px;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 12px;
+}
+
+#synopsis {
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 1.2em;
+    width: 800px;
+	vertical-align: top;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 10pt;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 0pt;
+}
+
+
+#projectdiv {
+	padding: 20px;
+	border:1px solid #aaaaaa;
+	background-color: white;
+	margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+	vertical-align: top;
+	box-shadow: 6px 6px 25px #999999;
+	margin-bottom: 20px;
+}
+
+table.projecttable {
+	width: 100%;
+	border-spacing: 10px;
+	font-size: 1.2em;
+	vertical-align: top;
+}
+
+table.projecttable td {
+	width: 440px;
+	vertical-align: top;
+}
+table.projecttable td.right {
+	text-align: right;
+	padding-right: 10px;
+}
+table.projecttable td.body {
+	width: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 20pt;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 0em;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	vertical-align: top;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 0em;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 0em;
+}
+b {
+	vertical-align: top;
+	margin-top: 0em;
+	border-top: 0em;
+	padding-top: 0em;
+	margin-bottom: 0em;
+	border-bottom: 0em;
+	padding-bottom: 0pt;
+}
+
+strong {
+	font-weight: bold;
+}
